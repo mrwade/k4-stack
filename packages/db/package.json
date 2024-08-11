@@ -1,0 +1,29 @@
+{
+  "name": "@repo/db",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "pnpm build:prisma && tsup --clean",
+    "build:prisma": "prisma generate",
+    "check-types": "tsc --noEmit",
+    "dev": "tsup --watch",
+    "migrate": "prisma db migrate",
+    "push": "prisma db push",
+    "seed": "node dist/scripts/seed.js"
+  },
+  "dependencies": {
+    "@prisma/client": "5.18.0",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "prisma": "^5.18.0",
+    "tsup": "^8.2.4"
+  }
+}
