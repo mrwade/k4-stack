@@ -1,0 +1,12 @@
+{
+  "name": "k4-stack",
+  "engines": {
+    "node": "^20.16.0"
+  },
+  "volta": {
+    "node": "20.16.0"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
