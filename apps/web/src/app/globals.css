@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 238, 238, 238;
+  --background-start-rgb: 30, 30, 30;
+  --background-end-rgb: 40, 40, 40;
+  --accent-color: 97, 175, 239;
+  --secondary-accent: 152, 195, 121;
+  --tertiary-accent: 229, 192, 123;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +21,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-start-rgb));
+  background: linear-gradient(
+    to bottom right,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  min-height: 100vh;
 }
 
 @layer utilities {

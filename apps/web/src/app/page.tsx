@@ -17,17 +17,20 @@ export default async function Home() {
       <form action={generatePosts} className="flex justify-end mb-6">
         <button
           type="submit"
-          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          className="bg-[#61afef] hover:bg-[#528bbd] text-[#1a1d24] font-bold py-2 px-4 rounded-md shadow-lg transition duration-300"
         >
           Generate Posts
         </button>
       </form>
 
       {posts.map((post) => (
-        <div key={post.id} className="bg-white shadow-md rounded-lg p-4 mb-4">
-          <p className="font-bold text-blue-500">@{post.user.username}</p>
-          <p className="mt-2 text-gray-700">{post.content}</p>
-          <p className="mt-2 text-sm text-gray-500">
+        <div
+          key={post.id}
+          className="bg-[#21252b] shadow-lg rounded-md p-4 mb-4 border border-[#528bbd]"
+        >
+          <p className="font-bold text-[#ff79c6]">@{post.user.username}</p>
+          <p className="mt-2 text-[#dcdfe4]">{post.content}</p>
+          <p className="mt-2 text-sm text-[#50fa7b]">
             {new Date(post.createdAt).toLocaleString()}
           </p>
         </div>

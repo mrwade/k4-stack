@@ -13,7 +13,7 @@ export const runGeneratePosts = async (
         id: genId(),
         username: faker.internet.userName(),
         fullName: faker.person.fullName(),
-        content: faker.lorem.paragraph({ min: 1, max: 4 }),
+        content: faker.lorem.paragraph({ min: 1, max: 3 }),
         createdAt: faker.date.recent({ days: 30 }),
       };
       console.log(data);
