@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@repo/db": "workspace:*",
+    "@repo/queue": "workspace:*",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.5"
