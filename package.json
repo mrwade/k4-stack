@@ -10,7 +10,9 @@
   "scripts": {
     "build": "turbo build",
     "db": "pnpm --filter @repo/db",
-    "dev": "turbo dev"
+    "db:reset": "pnpm docker-dev db:reset && pnpm db migrate dev",
+    "dev": "turbo dev",
+    "docker-dev": "pnpm --filter @repo/docker-dev"
   },
   "devDependencies": {
     "@types/node": "^20",

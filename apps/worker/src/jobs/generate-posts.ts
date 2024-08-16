@@ -9,21 +9,28 @@ export const runGeneratePosts = async (
 
   await db.$transaction(
     Array.from({ length: count }).map(() => {
-      const username = faker.internet.userName();
+      const data = {
+        id: genId(),
+        username: faker.internet.userName(),
+        fullName: faker.person.fullName(),
+        content: faker.lorem.paragraph({ min: 1, max: 4 }),
+        createdAt: faker.date.recent({ days: 30 }),
+      };
+      console.log(data);
       return db.post.create({
         data: {
-          id: genId(),
-          content: faker.lorem.paragraph({ min: 1, max: 5 }),
-          createdAt: faker.date.recent({ days: 30 }),
+          id: data.id,
+          content: data.content,
+          createdAt: data.createdAt,
           user: {
             connectOrCreate: {
               create: {
                 id: genId(),
-                name: faker.person.fullName(),
-                username,
+                name: data.fullName,
+                username: data.username,
               },
               where: {
-                username,
+                username: data.username,
               },
             },
           },
