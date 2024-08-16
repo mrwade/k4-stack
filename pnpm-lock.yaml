@@ -9,13 +9,13 @@ importers:
   .:
     devDependencies:
       '@types/node':
-        specifier: ^20
-        version: 20.14.15
+        specifier: ^20.15.0
+        version: 20.15.0
       turbo:
-        specifier: ^2.0.12
-        version: 2.0.12
+        specifier: ^2.0.14
+        version: 2.0.14
       typescript:
-        specifier: ^5
+        specifier: ^5.5.4
         version: 5.5.4
 
   apps/web:
@@ -30,35 +30,35 @@ importers:
         specifier: 14.2.5
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1
       react-dom:
-        specifier: ^18
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@types/node':
-        specifier: ^20
-        version: 20.14.15
+        specifier: ^20.15.0
+        version: 20.15.0
       '@types/react':
-        specifier: ^18
+        specifier: ^18.3.3
         version: 18.3.3
       '@types/react-dom':
-        specifier: ^18
+        specifier: ^18.3.0
         version: 18.3.0
       eslint:
-        specifier: ^8
+        specifier: ^8.57.0
         version: 8.57.0
       eslint-config-next:
         specifier: 14.2.5
         version: 14.2.5(eslint@8.57.0)(typescript@5.5.4)
       postcss:
-        specifier: ^8
+        specifier: ^8.4.41
         version: 8.4.41
       tailwindcss:
-        specifier: ^3.4.1
-        version: 3.4.9
+        specifier: ^3.4.10
+        version: 3.4.10
       typescript:
-        specifier: ^5
+        specifier: ^5.5.4
         version: 5.5.4
 
   apps/worker:
@@ -105,7 +105,7 @@ importers:
   packages/docker-dev:
     devDependencies:
       typescript:
-        specifier: ^5
+        specifier: ^5.5.4
         version: 5.5.4
 
   packages/queue:
@@ -568,8 +568,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@20.14.15':
-    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
+  '@types/node@20.15.0':
+    resolution: {integrity: sha512-eQf4OkH6gA9v1W0iEpht/neozCsZKMTK+C4cU6/fv7wtJCCL8LEQ4hie2Ln8ZP/0YYM2xGj7//f8xyqItkJ6QA==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1188,8 +1188,8 @@ packages:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
 
-  ignore@5.3.1:
-    resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
+  ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
   import-fresh@3.3.0:
@@ -1687,8 +1687,8 @@ packages:
     peerDependencies:
       postcss: ^8.2.14
 
-  postcss-selector-parser@6.1.1:
-    resolution: {integrity: sha512-b4dlw/9V8A71rLIDsSwVmak9z2DuBUB7CA1/wSdelNEzqsjoSPeADTWNO09lpH49Diy3/JIZ2bSPB1dI3LJCHg==}
+  postcss-selector-parser@6.1.2:
+    resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==}
     engines: {node: '>=4'}
 
   postcss-value-parser@4.2.0:
@@ -1937,8 +1937,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@3.4.9:
-    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
+  tailwindcss@3.4.10:
+    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2001,38 +2001,38 @@ packages:
       typescript:
         optional: true
 
-  turbo-darwin-64@2.0.12:
-    resolution: {integrity: sha512-NAgfgbXxX/JScWQmmQnGbPuFZq7LIswHfcMk5JwyBXQM/xmklNOxxac7MnGGIOf19Z2f6S3qHy17VIj0SeGfnA==}
+  turbo-darwin-64@2.0.14:
+    resolution: {integrity: sha512-kwfDmjNwlNfvtrvT29+ZBg5n1Wvxl891bFHchMJyzMoR0HOE9N1NSNdSZb9wG3e7sYNIu4uDkNk+VBEqJW0HzQ==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.0.12:
-    resolution: {integrity: sha512-cP02uer5KSJ+fXL+OfRRk5hnVjV0c60hxDgNcJxrZpfhun7HHoKDDR7w2xhQntiA45aC6ZZEXRqMKpj6GAmKbg==}
+  turbo-darwin-arm64@2.0.14:
+    resolution: {integrity: sha512-m3LXYEshCx3wc4ZClM6gb01KYpFmtjQ9IBF3A7ofjb6ahux3xlYZJZ3uFCLAGHuvGLuJ3htfiPbwlDPTdknqqw==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.0.12:
-    resolution: {integrity: sha512-+mQgGfg1eq5qF+wenK/FKJaNMNAo5DQLC4htQy+8osW+fx6U+8+6UlPQPaycAWDEqwOI7NwuqkeHfkEQLQUTyQ==}
+  turbo-linux-64@2.0.14:
+    resolution: {integrity: sha512-7vBzCPdoTtR92SNn2JMgj1FlMmyonGmpMaQdgAB1OVYtuQ6NVGoh7/lODfaILqXjpvmFSVbpBIDrKOT6EvcprQ==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.0.12:
-    resolution: {integrity: sha512-KFyEZDXfPU1DK4zimxdCcqAcK7IIttX4mfsgB7NsSEOmH0dhHOih/YFYiyEDC1lTRx0C2RlzQ0Kjjdz48AN5Eg==}
+  turbo-linux-arm64@2.0.14:
+    resolution: {integrity: sha512-jwH+c0bfjpBf26K/tdEFatmnYyXwGROjbr6bZmNcL8R+IkGAc/cglL+OToqJnQZTgZvH7uDGbeSyUo7IsHyjuA==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.0.12:
-    resolution: {integrity: sha512-kJj4KCkZTkDTDCqsSw1m1dbO4WeoQq1mYUm/thXOH0OkeqYbSMt0EyoTcJOgKUDsrMnzZD2gPfYrlYHtV69lVA==}
+  turbo-windows-64@2.0.14:
+    resolution: {integrity: sha512-w9/XwkHSzvLjmioo6cl3S1yRfI6swxsV1j1eJwtl66JM4/pn0H2rBa855R0n7hZnmI6H5ywLt/nLt6Ae8RTDmw==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.0.12:
-    resolution: {integrity: sha512-TY3ROxguDilN2olCwcZMaePdW01Xhma0pZU7bNhsQEqca9RGAmsZBuzfGnTMcWPmv4tpnb/PlX1hrt1Hod/44Q==}
+  turbo-windows-arm64@2.0.14:
+    resolution: {integrity: sha512-XaQlyYk+Rf4xS5XWCo8XCMIpssgGGy8blzLfolN6YBp4baElIWMlkLZHDbGyiFmCbNf9I9gJI64XGRG+LVyyjA==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.0.12:
-    resolution: {integrity: sha512-8s2KwqjwQj7z8Z53SUZSKVkQOZ2/Sl4D2F440oaBY/k2lGju60dW6srEpnn8/RIDeICZmQn3pQHF79Jfnc5Skw==}
+  turbo@2.0.14:
+    resolution: {integrity: sha512-00JjdCMD/cpsjP0Izkjcm8Oaor5yUCfDwODtaLb+WyblyadkaDEisGhy3Dbd5az9n+5iLSPiUgf+WjPbns6MRg==}
     hasBin: true
 
   type-check@0.4.0:
@@ -2067,8 +2067,8 @@ packages:
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.13.0:
+    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -2219,7 +2219,7 @@ snapshots:
       debug: 4.3.6
       espree: 9.6.1
       globals: 13.24.0
-      ignore: 5.3.1
+      ignore: 5.3.2
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -2425,9 +2425,9 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@20.14.15':
+  '@types/node@20.15.0':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.13.0
 
   '@types/prop-types@15.7.12': {}
 
@@ -2936,7 +2936,7 @@ snapshots:
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.9.0(eslint@8.57.0)
       eslint-plugin-react: 7.35.0(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.0)
@@ -2960,7 +2960,7 @@ snapshots:
       enhanced-resolve: 5.17.1
       eslint: 8.57.0
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.6
       is-core-module: 2.15.0
@@ -2982,7 +2982,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1(eslint@8.57.0))(eslint@8.57.0))(eslint@8.57.0):
+  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.2.0(eslint@8.57.0)(typescript@5.5.4))(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlastindex: 1.2.5
@@ -3089,7 +3089,7 @@ snapshots:
       glob-parent: 6.0.2
       globals: 13.24.0
       graphemer: 1.4.0
-      ignore: 5.3.1
+      ignore: 5.3.2
       imurmurhash: 0.1.4
       is-glob: 4.0.3
       is-path-inside: 3.0.3
@@ -3267,7 +3267,7 @@ snapshots:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.3.2
-      ignore: 5.3.1
+      ignore: 5.3.2
       merge2: 1.4.1
       slash: 3.0.0
 
@@ -3301,7 +3301,7 @@ snapshots:
 
   human-signals@2.1.0: {}
 
-  ignore@5.3.1: {}
+  ignore@5.3.2: {}
 
   import-fresh@3.3.0:
     dependencies:
@@ -3764,9 +3764,9 @@ snapshots:
   postcss-nested@6.2.0(postcss@8.4.41):
     dependencies:
       postcss: 8.4.41
-      postcss-selector-parser: 6.1.1
+      postcss-selector-parser: 6.1.2
 
-  postcss-selector-parser@6.1.1:
+  postcss-selector-parser@6.1.2:
     dependencies:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
@@ -4055,7 +4055,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@3.4.9:
+  tailwindcss@3.4.10:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -4076,7 +4076,7 @@ snapshots:
       postcss-js: 4.0.1(postcss@8.4.41)
       postcss-load-config: 4.0.2(postcss@8.4.41)
       postcss-nested: 6.2.0(postcss@8.4.41)
-      postcss-selector-parser: 6.1.1
+      postcss-selector-parser: 6.1.2
       resolve: 1.22.8
       sucrase: 3.35.0
     transitivePeerDependencies:
@@ -4146,32 +4146,32 @@ snapshots:
       - tsx
       - yaml
 
-  turbo-darwin-64@2.0.12:
+  turbo-darwin-64@2.0.14:
     optional: true
 
-  turbo-darwin-arm64@2.0.12:
+  turbo-darwin-arm64@2.0.14:
     optional: true
 
-  turbo-linux-64@2.0.12:
+  turbo-linux-64@2.0.14:
     optional: true
 
-  turbo-linux-arm64@2.0.12:
+  turbo-linux-arm64@2.0.14:
     optional: true
 
-  turbo-windows-64@2.0.12:
+  turbo-windows-64@2.0.14:
     optional: true
 
-  turbo-windows-arm64@2.0.12:
+  turbo-windows-arm64@2.0.14:
     optional: true
 
-  turbo@2.0.12:
+  turbo@2.0.14:
     optionalDependencies:
-      turbo-darwin-64: 2.0.12
-      turbo-darwin-arm64: 2.0.12
-      turbo-linux-64: 2.0.12
-      turbo-linux-arm64: 2.0.12
-      turbo-windows-64: 2.0.12
-      turbo-windows-arm64: 2.0.12
+      turbo-darwin-64: 2.0.14
+      turbo-darwin-arm64: 2.0.14
+      turbo-linux-64: 2.0.14
+      turbo-linux-arm64: 2.0.14
+      turbo-windows-64: 2.0.14
+      turbo-windows-arm64: 2.0.14
 
   type-check@0.4.0:
     dependencies:
@@ -4220,7 +4220,7 @@ snapshots:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  undici-types@5.26.5: {}
+  undici-types@6.13.0: {}
 
   uri-js@4.4.1:
     dependencies:
